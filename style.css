@@ -76,9 +76,20 @@ transition: 6s;
 
 
 @media screen and (max-width:800px) {
+
     .starbox{
         justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-}  }
+} 
+.company{
+    background-color: blueviolet;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+}
