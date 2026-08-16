@@ -30,6 +30,7 @@ transition: 6s;
     background-color: blue;
     border-radius: 30px;
     transition: 2s;
+    color: white;
 }
 
 .box1{
@@ -46,6 +47,7 @@ transition: 6s;
     background-color: rgb(228, 33, 186);
     border-radius: 30px;
     transition: 2s;
+    color: white;
 }
 
 .box2{
@@ -61,6 +63,7 @@ transition: 6s;
     background-color: rgb(184, 220, 41);
     border-radius: 30px;
     transition: 2s;
+    color:white
 }
 
 .starbox{
@@ -71,13 +74,11 @@ transition: 6s;
     
 }
 
+
 @media screen and (max-width:800px) {
     .starbox{
         justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    
-    }
-    
-}
+}  }
